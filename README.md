@@ -1,4 +1,4 @@
-# Quick JWT Decoder Ì¥ë
+# Quick JWT Decoder ÔøΩÔøΩÔøΩ
 
 An instantaneous, 100% local JSON Web Token (JWT) inspector sidebar panel and hover utility built for VS Code. Decode developer tokens and check dynamic token expirations natively without ever leaving your editor or leaking sensitive security data to third-party web tools.
 
@@ -9,7 +9,8 @@ An instantaneous, 100% local JSON Web Token (JWT) inspector sidebar panel and ho
 * **Auto-Bearer Filter Cleaner**: Automatically parses and strips away prefixed strings like `Bearer ` or `Authorization: ` if you copy a raw backend inspector network log line straight into your input field.
 * **Dynamic Token Expiry Warning Banner**: Automatically parses the `exp` payload timestamp claim and flashes a bright red **"‚ö†Ô∏è TOKEN EXPIRED"** alert badge if the token has run out relative to your local computer's clock time.
 
-## Ì∫Ä Getting Started
+<!--
+## ÔøΩÔøΩÔøΩ Getting Started
 
 ### Prerequisites
 Make sure you have [Node.js](https://nodejs.org) (v18 or higher) and [VS Code](https://visualstudio.com) installed.
@@ -24,15 +25,15 @@ Make sure you have [Node.js](https://nodejs.org) (v18 or higher) and [VS Code](h
    npm run watch
    ```
 3. Tap **`F5`** on your keyboard to open the **`[Extension Development Host]`** test sandbox window.
-4. Click on the **Key Icon Ì¥ë** in the far-left vertical sidebar toolbar menu to launch your Token Inspector user layout window pane!
+4. Click on the **Key Icon ÔøΩÔøΩÔøΩ** in the far-left vertical sidebar toolbar menu to launch your Token Inspector user layout window pane!
 
 ---
 
-## Ì≥¶ Packaging For Production
+## ÔøΩÔøΩÔøΩ Packaging For Production
 
 When you are ready to bundle this tool into an installable file format to distribute to your developer team layout nodes:
 ```bash
 npm install -g @vscode/vsce
 vsce package
 ```
-
+-->
