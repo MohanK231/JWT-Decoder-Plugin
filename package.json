@@ -2,7 +2,9 @@
   "name": "quick-jwt-decoder",
   "displayName": "Quick JWT Decoder",
   "publisher": "MohanKorada",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "A simple VS Code extension to decode JSON Web Tokens (JWT) quickly and easily.",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.120.0"
   },
